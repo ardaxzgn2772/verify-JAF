@@ -13,7 +13,7 @@ app.secret_key = os.urandom(24)  # ランダムキーを生成
 
 DISCORD_CLIENT_ID = "1367928958510829608"
 DISCORD_CLIENT_SECRET = "GzI1QQHQciE7LwLaIOGxllaH8dURhg9j"
-REDIRECT_URI = "http://127.0.0.1:5000/callback"
+REDIRECT_URI = "https://your-app.onrender.com/callback"
 WEBHOOK_URL = "https://discord.com/api/webhooks/1366804921487196171/TOWO1jQkASCrgOv0bEOzVqW725r7vuGiRxnjAx2TYjgZzdVf6VIv2ZOVsURCEl2THEbc"
 
 def get_location(ip):
